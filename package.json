@@ -1,0 +1,36 @@
+{
+  "name": "@captainsafia/checklist",
+  "version": "1.0.0",
+  "description": "A CLI tool that determines whether or not your new open source project is ready for battle",
+  "main": "src/index.js",
+  "bin": {
+    "checklist": "src/index.js"
+  },
+  "scripts": {
+    "postinstall": "node src/configure-app.js",
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainsafia/checklist.git"
+  },
+  "keywords": [
+    "CLI",
+    "open source",
+    "developer experience"
+  ],
+  "author": "Safia Abdalla <safia@safia.rocks> (http://safia.rocks/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captainsafia/checklist/issues"
+  },
+  "homepage": "https://github.com/captainsafia/checklist#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
