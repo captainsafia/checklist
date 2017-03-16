@@ -15,4 +15,19 @@ npm install --global @captainsafia/checklist
 ```
 
 ## Usage
+```
+  Usage: checklist [options] [command]
+
+
+  Commands:
+
+    list|l                   List the current configuration for checklist
+    check|c <configuration>  Check a project against a particular configuration
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+```
+
 ![Checklist Demo](https://cloud.githubusercontent.com/assets/1857993/24018327/733294d0-0a61-11e7-951e-a9b5fbef3ced.gif)
